@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal 1</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="soal1">
+        <h1>Anda telah mengecek nilai anda</h1>
+    </div>
+
+    <div class="picture">
+        <img src="img/ceklis.png" alt="">
+    </div>
+
+    <script>
+        
+        var nilai = prompt("Masukkan nilai anda");
+        if (nilai > 80) {
+            alert("Sangat memuaskan");
+        }
+        else if (nilai >= 60 && nilai <= 80) {
+            alert("Memuaskan");
+        }
+        else if (nilai < 60) {
+            alert("Jangan menyerah, coba lagi!");
+        }
+        else {
+            alert("Nilai aneh");
+        }
+
+
+    </script>
+
+</body>
+
+</html>

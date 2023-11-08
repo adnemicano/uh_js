@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal 4</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1 class="text-calculator">Kalkulator Keliling Jajar Genjang</h1>
+    <br>
+    <label for="sisiA" class="labelA">Masukkan panjang sisi a:</label>
+    <input type="text" id="sisiA" class="inputA"><br>
+    <label for="sisiB" class="labelB">Masukkan panjang sisi b:</label>
+    <input type="text" id="sisiB" class="inputB"><br>
+    <button onclick="hitungKeliling()" class="btn-hitung-keliling">Hitung</button> <br>
+    <p class="hasil-keliling">Hasil keliling: <span id="hasilKeliling"></span></p>
+    
+    <script>
+        function hitungKeliling() {
+            const sisiA = parseFloat(document.getElementById("sisiA").value);
+            const sisiB = parseFloat(document.getElementById("sisiB").value);
+
+            if (isNaN(sisiA) || isNaN(sisiB)) {
+                alert("Masukan harus berupa angka.");
+                return;
+            }
+
+            const keliling = 2 * (sisiA + sisiB);
+            document.getElementById("hasilKeliling").textContent = keliling;
+        }
+    </script>
+
+</body>
+
+</html>

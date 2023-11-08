@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal 5</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <h1 class="cek-tahun">Cek Tahun Kabisat</h1> <br>
+    <input type="number" id="inputYear" placeholder="Masukkan tahun" class="inputTahun">
+    <button onclick="cekTahunKabisat()" class="btn-tahun">Cek di sini</button>
+    <br>
+    <p id="result" class="hasil-tahun"></p>
+    
+    <script>
+        function cekTahunKabisat() {
+            const inputYear = document.getElementById('inputYear').value;
+            const resultElement = document.getElementById('result');
+
+            if (inputYear % 4 !== 0) {
+                resultElement.innerHTML = 'Bukan tahun kabisat';
+            } else {
+                resultElement.innerHTML = 'Tahun kabisat';
+            }
+        }
+    </script>
+
+</body>
+</html>

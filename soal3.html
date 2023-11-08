@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal 3</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <label for="inputText" class="inputText">
+        <h4>Masukkan Spesifikasi Handphone:</h4>
+    </label>
+    <input type="text" id="inputText" placeholder="Masukkan di sini" class="texttt">
+    <button onclick="tampilkanJenisSmartphone()" class="btn-tampilkan">Tampilkan Jenis</button>
+    <br>
+    <p id="output" class="output-text"></p>
+
+    <script>
+
+        function tampilkanJenisSmartphone() {
+            // Mendapatkan nilai dari textbox
+            var inputText = document.getElementById("inputText").value.toLowerCase();
+
+            // Memeriksa input dan menampilkan output
+            var output = document.getElementById("output");
+            if (inputText.includes("10mp")) {
+                output.textContent = "Ini adalah kamera";
+            } else if (inputText.includes("128gb")) {
+                output.textContent = "Ini adalah memori";
+            } else {
+                output.textContent = "Ini bukan spesifikasi handphone";
+            }
+        }
+
+
+    </script>
+
+</body>
+
+</html>

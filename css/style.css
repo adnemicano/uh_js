@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #C8E4B2;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.action {
+    margin: auto;
+    padding: 100px;
+}
+
+/* .btn1 {
+    margin-bottom: 20px;
+    
+} */
+
+.btn1, .btn3, .btn5 {
+    margin-bottom: 30px;
+    background-color: #7EAA92;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 14;
+}
+
+.btn2, .btn4 {
+    margin-bottom: 30px;
+    background-color: #9ED2BE;
+    color: darkgreen;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 14;
+}
+
+.soal1 {
+    color: darkgreen;
+    text-align: center;
+    padding: 100px;
+}
+
+.picture {
+    text-align: center;
+}
+
+/* Alas segitiga */
+.alas {
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Tinggi segitiga */
+.tinggi {
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Luas segitiga */
+.luas {
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.inputText {
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.texttt {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: darkgreen;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 14;
+}
+
+.btn-tampilkan {
+    margin-bottom: 30px;
+    background-color: #4F6F52;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 14;
+}
+
+.output-text {
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.text-calculator, .cek-tahun {
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.labelA, .labelB, .hasil-keliling, .hasil-tahun {
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.inputA, .inputB {
+    background-color: white;
+        color: black;
+        text-decoration: none;
+        border-radius: 10px;
+        padding: 10px 20px;
+        border: darkgreen;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        font-size: 14;
+}
+
+.btn-hitung-keliling, .btn-tahun {
+    margin: 20px;
+        background-color: #4F6F52;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        font-size: 14;
+}
+
+.inputTahun {
+    background-color: white;
+        color: black;
+        text-decoration: none;
+        border-radius: 10px;
+        padding: 10px 20px;
+        border: darkgreen;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        font-size: 14;
+        margin: 20px;
+}
